@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    
+    background-image: url("https://www.remessaonline.com.br/blog/wp-content/uploads/2020/01/conversor-de-moeda-1024x683.jpeg.webp");
+    background-color: #000000;
+  background-size: cover;
+  
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    color: white;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 100 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+      position: relative;
+    top: 20px;
+    margin-top: 10px;
+    width: 200px;
+    margin: auto;
+  }
+  
+  .alura-logo {
+    position: relative;
+    top: 10px;
+    width: 60px;
+    margin: auto;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  button {
+    height: 40px;
+    margin: 12px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background: #fdec00;
+  }
+
+  button a:hover {
+      color: lemonchiffon;
+  }
+  
+  h2 {
+    color: #fdec00;
+    font-size: 30px;
+  }
+  
+  select {
+    border-radius: 3px;
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  #imprimir {
+    color: #6100fd;
+  }
+
+label {
+          color: #6100fd;
+  }
+  
