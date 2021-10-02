@@ -1,45 +1,56 @@
-<link rel="stylesheet" href="style.css">
-<div class="container">
-    <header>
-        <a href="https://alura.com.br/" target="_blank">
-            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-        </a>
-    </header>
-   
-    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
-    <h1 class="page-title">
-      Conversor de moedas
-    </h1>
-    <p class="page-subtitle">
-        Converta para Real, Dolar, Euro ou Bitcoin.
-      </p>
-    <br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <input type="number" id="valorReal" placeholder="insira o valor"/>
-  
-    
+  <title>Conversor de Moedas - Alura dev.</title>
 
-    <label>De:</label>
-    <select id="deMoeda">
-        <option value="1" >Real (BRL)</option>
-      <option value="5.43" >Dolar (USD)</option>
-      <option value="6.28">Euro (EUR)</option>
-      <option value="224309.82">Bitcoin (BTC)</option>
-    </select>
-    <label>Para:</label>
-    <select id="paraMoeda">
-      <option value="5.43">Dolar (USD)</option>
-      <option value="6.28">Euro (EUR)</option>
-      <option value="224309.82">Bitcoin (BTC)</option>
-      <option value="1" >Real (BRL)</option>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="container">
+		<header>
+			<a href="https://alura.com.br/" target="_blank">
+				<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+			</a>
+		</header>
+		
+		<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+		<h1 class="page-title">
+			Conversor de moedas
+		</h1>
+		<p class="page-subtitle">
+			Converta para Real, Dolar, Euro ou Bitcoin.
+		</p>
+		<br><br>
 
-    </select>
-  
-    <button type="submit" onclick="converter()">Converter</button>
-  
-    <div id="imprimir"></div>
-  
-  </div>
-  
+		<input type="number" id="valorReal" placeholder="insira o valor"/>
+		
+		<label>De:</label>
+		<select id="deMoeda">
+			<option value="1" >Real (BRL)</option>
+			<option value="5.43" >Dolar (USD)</option>
+			<option value="6.28">Euro (EUR)</option>
+			<option value="224309.82">Bitcoin (BTC)</option>
+		</select>
+		<label>Para:</label>
+		<select id="paraMoeda">
+			<option value="5.43">Dolar (USD)</option>
+			<option value="6.28">Euro (EUR)</option>
+			<option value="224309.82">Bitcoin (BTC)</option>
+			<option value="1" >Real (BRL)</option>
 
-    <script type="text/javascript" src="script.js"></script>
+		</select>
+		
+		<button type="submit" onclick="converter()">Converter</button>
+		
+		<div id="imprimir"></div>
+	
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
