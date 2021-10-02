@@ -13,7 +13,7 @@ function converter() {
     var paraMoedaText = paraMoeda.options[paraMoeda.selectedIndex].text;
      
     //extraindo sigla do nome da moeda do select   
-    var sigla = deMoedaText.slice(-4, -1);
+    var sigla = paraMoedaText.slice(-4, -1);
 
     //extraindo nome sem a sigla da moeda do select
     var moeda = deMoedaText.replace(/ *\([^)]*\) */g, "");
